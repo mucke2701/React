@@ -3,6 +3,7 @@ $background-dark: #512DA8;
 $background-light: #9575CD;
 $background-pale: #D1C4E9;
 
+
 // Height variables
 $carousel-item-height: 300px;
 
@@ -68,6 +69,17 @@ body{
     }
 }
 
+.modal { 
+    color: #ddd; 
+
+.modal-header {
+    background-color: #512DA8;
+}
+
+.modal-body {
+    background-color: #9575CD;
+}
+}
 #carouselButton {
     right:0px;
     position: absolute;
